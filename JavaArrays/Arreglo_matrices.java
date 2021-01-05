@@ -40,7 +40,10 @@ public class Arreglo_matrices {
 				break;
 			}
 				System.out.println("Las matrices no son multiplicables, ingrese de nuevo los datos");
-				continue;
+			m1_filas = 0;
+			m1_columnas = 0;
+			m2_filas = 0;
+			m2_columnas = 0;
 		}
 		Matriz1 = new int[m1_filas][m1_columnas];
 		Matriz2 = new int[m2_filas][m2_columnas];
@@ -76,7 +79,10 @@ public class Arreglo_matrices {
 				break;
 			}
 				System.out.println("Las matrices no se pueden sumar, ingrese de nuevo los datos");
-				continue;
+				m3_filas = 0;
+				m3_columnas = 0;
+				m4_filas = 0;
+				m4_columnas = 0;
 		}
 		Matriz3 = new int[m3_filas][m3_columnas];
 		Matriz4 = new int[m4_filas][m4_columnas];
@@ -98,10 +104,10 @@ public class Arreglo_matrices {
 		System.out.println("\nEjercicio 6. Matriz en espiral");
 		while(tm == 0)
 		{
-			tm = ValidarNumeroInt("el tamaño de la matriz en espiral, debe ser un número impar");
+			tm = ValidarNumeroInt("el tamaÃ±o de la matriz en espiral, debe ser un nÃºmero impar");
 			if (tm % 2 == 0)
 			{
-				System.out.println("Debe ser un número impar");
+				System.out.println("Debe ser un nÃºmero impar");
 				tm = 0;
 			}
 		}
@@ -112,12 +118,7 @@ public class Arreglo_matrices {
 	public static void saludar()
 	{
 		System.out.println("*************************************************************");
-		System.out.println("*     UNIVERSIDAD DISTRITAL FRANCISCO JOSE DE CALDAS        *");
-		System.out.println("*                    INGENIERIA ELECRICA                    *");
-		System.out.println("*         007-742 PROGRAMACION ORIENTADA A OBJETOS          *");
-		System.out.println("*             ANGIE XIMENA CASTAÑO 20191007002              *");
-		System.out.println("*                  9 DE DICIEMBRE DEL 2020                  *");
-		System.out.println("*                4 y 5 GUIA 20 / MATRICES                   *");
+		System.out.println("Buenas tardes =D ");
 		System.out.println("*************************************************************");
 
 
@@ -127,7 +128,7 @@ public class Arreglo_matrices {
 		int i = 0, j = 0;
 		String dato = "";
 		boolean validarEntero = false;
-		System.out.println("Ingresa el valor de la matriz"+ dato1 +" en la posición: ");
+		System.out.println("Ingresa el valor de la matriz"+ dato1 +" en la posiciÃ³n: ");
 		for (i = 0; i < filas; i++)
 		{
 			for (j = 0; j < columnas; j++)
@@ -179,7 +180,7 @@ public class Arreglo_matrices {
 		}
 		catch(Exception ioe) {
 			System.out.println( " Error en la lectura: " +ioe.getMessage());
-			System.out.println( " Debe ser un número entero y positivo");
+			System.out.println( " Debe ser un nÃºmero entero y positivo");
 			return 0;
 		}
 		if (tm < 1)
@@ -210,7 +211,7 @@ public class Arreglo_matrices {
 		while(validarEntero == false)
 		{
 			System.out.println("Si desea llenar manualmente la matriz de  datos ingrese 1");
-			System.out.println("Si desea llenar la matriz automáticamente de  datos ingrese 2");
+			System.out.println("Si desea llenar la matriz automÃ¡ticamente de  datos ingrese 2");
 			Scanner entrada = new Scanner (System.in);
 			try
 			{
@@ -224,7 +225,7 @@ public class Arreglo_matrices {
 			System.out.println(opc);
 			if (opc < 1 && opc > 2)
 			{
-				System.out.println("El número debe estar entre 1 y 2");
+				System.out.println("El nÃºmero debe estar entre 1 y 2");
 				validarEntero = false;
 			}
 			else if(opc == 1)
