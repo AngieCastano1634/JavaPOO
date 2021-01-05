@@ -77,17 +77,17 @@ public class AplicacionResistencia {
     			resultadoPorEncima = nuevaResistencia.ResistenciaConToleranciaPositiva();
 			if (banda4 > 0 &&  banda4 < 4)
 			{
-				System.out.print("La resistencia neta es: "+resistencia_neta/1000.0+ "K ohmios\n" +"La resistencia está entre " + resultadoPorDebajo/1000.0 + "K ohmios y "+ resultadoPorEncima/1000.0 + "K ohmios\n");
+				System.out.print("La resistencia neta es: "+resistencia_neta/1000.0+ "K ohmios\n" +"La resistencia estÃ¡ entre " + resultadoPorDebajo/1000.0 + "K ohmios y "+ resultadoPorEncima/1000.0 + "K ohmios\n");
 			}
 			else if (banda4 > 3)
 			{
-				System.out.print("La resistencia neta es: "+resistencia_neta/1000000.0+ "M ohmios\n" +"La resistencia está entre " + resultadoPorDebajo/1000000.0 + "M ohmios y "+ resultadoPorEncima/1000000.0 + "M ohmios\n");
+				System.out.print("La resistencia neta es: "+resistencia_neta/1000000.0+ "M ohmios\n" +"La resistencia estÃ¡ entre " + resultadoPorDebajo/1000000.0 + "M ohmios y "+ resultadoPorEncima/1000000.0 + "M ohmios\n");
 			}
 			else {
 			
-				System.out.print("La resistencia neta es: "+ resistencia_neta + "ohmios\n" + "La resistencia está entre " + resultadoPorDebajo + " ohmios y "+resultadoPorEncima+ " ohmios\n");
+				System.out.print("La resistencia neta es: "+ resistencia_neta + "ohmios\n" + "La resistencia estÃ¡ entre " + resultadoPorDebajo + " ohmios y "+resultadoPorEncima+ " ohmios\n");
 			}
-			opc = ValidarEntero(" 9 para salir del menú, de lo contrario ingrese cualquier otro número entero:\n");
+			opc = ValidarEntero(" 9 para salir del menÃº, de lo contrario ingrese cualquier otro nÃºmero entero:\n");
         } while (opc != 9);
         System.out.println("Gracias por usar el programa :)");
         
@@ -104,17 +104,19 @@ public class AplicacionResistencia {
 	public static void MenuDeOpcionesDeResistencias(Vector banda1_3, int ultimo)
 	{
 		int i = 0;
+		System.out.println("Por favor escriba ");
 		for (i = 0; i < ultimo; i++)
 		{
-			System.out.println("Por favor escriba " + banda1_3.get(i)+ " para " + i);
+			System.out.println(banda1_3.get(i)+ " para " + i);
 		}
 	}
 	public static void MenuDeOpcionesDeResistenciasTolerancia(Vector tolerancia, int ultimo, Vector tolerancia_porcentaje)
 	{
 		int i = 0;
+		System.out.println("Por favor escriba ");
 		for (i = 0; i < ultimo; i++)
 		{
-			System.out.println("Por favor escriba " + tolerancia.get(i)+ " para " + tolerancia_porcentaje.get(i)+ " de tolerancia");
+			System.out.println(tolerancia.get(i)+ " para " + tolerancia_porcentaje.get(i)+ " de tolerancia");
 		}
 	}
 	public static String recibirEntrada(String dato) throws IOException{
