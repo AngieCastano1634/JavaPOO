@@ -1,5 +1,7 @@
 Java arrays and vectors
-- Spiral Matrix \n
+- Spiral Matrix
+
+
 ![Spiral](./images/SpiralMatrix.JPG)
 - Magic square Matrix
 ![alt text] (https://github.com/AngieCastano1634/JavaPOO/blob/main/JavaArrays/MagicSquare.JPG)
