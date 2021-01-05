@@ -8,6 +8,8 @@ Java arrays and vectors
 
 ![Magic Square](./images/MagicSquare.JPG)
 - Matrix multiplication
+
+
 ![MatrixMultiplication](./images/MatrixMultiplication.JPG)
 
 - Matrix adding
