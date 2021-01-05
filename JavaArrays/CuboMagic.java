@@ -34,14 +34,14 @@ public class CuboMagic {
 			int cubito= 0;
 			for(int y=0 ; y<tm;y++) {
 				cubito= cuadradoMagico[x][y];
-				System.out.print("[ "+cubito +  " ]");
+				System.out.format("[ %4d]" ,cubito);
 			}
 			System.out.print("\n");
 		}
 	}
 	public static void generarCuadroMagico(int [][]cuadradoMagico, int tm)
 	{
-		int tamaño = -1;
+		int tamaÃ±o = -1;
 		int temp=1;
 		int pinicio = 0;
 		int i=0, j=0;
@@ -82,7 +82,7 @@ public class CuboMagic {
 		Scanner entrada = new Scanner (System.in);
 		int tm;
 		try {
-			System.out.println("Ingrese el tamaño de el cubo (Solo impares ) ");
+			System.out.println("Ingrese el tamaÃ±o de el cubo (Solo impares ) ");
 			tm=entrada.nextInt();
 		}
 		catch(Exception ioe) {
