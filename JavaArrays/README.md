@@ -4,8 +4,13 @@ Java arrays and vectors
 
 ![Spiral](./images/SpiralMatrix.JPG)
 - Magic square Matrix
-![alt text] (https://github.com/AngieCastano1634/JavaPOO/blob/main/JavaArrays/MagicSquare.JPG)
+
+
+![Magic Square](./images/MagicSquare.JPG)
 - Matrix multiplication
-![alt text] (https://github.com/AngieCastano1634/JavaPOO/blob/main/JavaArrays/MatrixMultiplication.JPG)
+![MatrixMultiplication](./images/MatrixMultiplication.JPG)
+
 - Matrix adding
-![alt text] (https://github.com/AngieCastano1634/JavaPOO/blob/main/JavaArrays/MatrixAdding.JPG)
+
+
+![MatrixAdding] (https://github.com/AngieCastano1634/JavaPOO/blob/main/JavaArrays/MatrixAdding.JPG)
