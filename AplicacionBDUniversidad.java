@@ -180,14 +180,6 @@ public class AplicacionBDUniversidad {
 public static void saludar()
 {
 	System.out.println("*********************");
-	System.out.println("*     UNIVERSIDAD DISTRITAL FRANCISCO JOSE DE CALDAS        *");
-	System.out.println("*                    INGENIERIA ELECRICA                    *");
-	System.out.println("*         007-742 PROGRAMACION ORIENTADA A OBJETOS          *");
-	System.out.println("*                                                           *");
-	System.out.println("*        RAFAEL EDUARDO MONTILLA PEÑA 20201007070           *");
-	System.out.println("*        ANGIE XIMENA CASTAÑO ALVAREZ 20191007002           *");
-	System.out.println("*                  17 DE DICIEMBRE DEL 2020                 *");
-	System.out.println("*                     Parcial 2                             *");
 	System.out.println("*********************");
 
 
