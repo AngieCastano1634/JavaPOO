@@ -15,4 +15,4 @@ Java arrays and vectors
 - Matrix adding
 
 
-![MatrixAdding] (https://github.com/AngieCastano1634/JavaPOO/blob/main/JavaArrays/MatrixAdding.JPG)
+![MatrixAdding](./images/MatrixAdding.JPG)
